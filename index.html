@@ -328,8 +328,10 @@ $(this).fadeTo("fast", 0.8);
             <li>Eager to contribute to innovative projects and learn from experienced professionals</li>
         </ul>
     </div>
+    
 
 </div>
+
 
 
 <div class="grid_1"><div class="holder"></div></div>
@@ -340,20 +342,58 @@ $(this).fadeTo("fast", 0.8);
 <div class="grid_24"><div class="horisontal_line"></div></div>
 <div class="grid_1"><div class="holder"></div></div>
 
+
 <!-- CONTACT ME FOOTER -->
 <div class="grid_22">
     <div class="ribbon2">Contact Me</div>
-    <div class="item_tittle" >
+
+    <form id="contact-form" action="mailto:csatlosrenata11@gmail.com" method="post" enctype="text/plain" class="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <label for="captcha">Captcha: What is 3 + 2?</label>
+        <input type="text" id="captcha" name="captcha" required />
+
+        <button type="submit" class="send-btn">Send ✉️</button>
+    </form>
+
+    <div class="item_tittle">
         <p><b>📧 Email:</b> <a href="mailto:csatlosrenata11@gmail.com">csatlosrenata11@gmail.com</a></p>
         <p><b>💻 GitHub:</b> <a target="_blank" href="https://github.com/csatlosrenata">github.com/csatlosrenata</a></p>
     </div>
 </div>
+
+<script>
+document.getElementById("contact-form").addEventListener("submit", function(e) {
+  const captcha = document.getElementById("captcha").value.trim();
+  if (captcha !== "5") {
+    alert("❌ Incorrect answer in the Captcha field!");
+    e.preventDefault();
+} else {
+    alert("✅ Message sent successfully!");
+}
+
+});
+</script>
+
+
 	 
 <div class="grid_1"><div class="holder"></div></div>
 <div class="grid_24"><div class="horisontal_line"></div></div>	
 
 </div>
+
+
+
 </div><!-- END .CONTAINER_24 -->
+
+
 
 <div style="display:none;" class="nav_up" id="nav_up"></div>
 <div style="display:none;" class="nav_down" id="nav_down"></div>
