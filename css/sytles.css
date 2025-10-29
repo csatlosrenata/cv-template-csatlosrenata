@@ -107,7 +107,7 @@ img.floatLeft {
 
 .container_24 {
 
-	background-image: url(../img/groovepaper.png);  /*groovepaper.png*/
+	background-image: url(../img/groovepaper.png);  
 }
 .holder {
 
@@ -118,7 +118,10 @@ img.floatLeft {
 
 /* ===HEADER===*/
 #header{
-	background-image: url(../img/resume.png);
+	background-image: url(../img/images/resume.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
 	width:990px;
 	height:87px;
 	margin:auto;
@@ -178,20 +181,21 @@ img.floatLeft {
 }
 #name_tittle h1{
 	font-family: 'PT Sans Narrow', cursive;
-	color: #022E63;
-	font-size: 85px;
+	color: #7e2570;
+	font-size: clamp(34px, 3vw, 52px);
 	text-align:left;
 	font-weight:bold;
+	margin: 6px 0 6px 0;
 }
 #name_tittle ul{
 	color: #74767A;
-    font-family: 'PT Sans',sans-serif;
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.0em;
-    list-style-type: none;
-    margin: -24px 0 0 -31px;
-    text-align: left;
+	font-family: 'PT Sans',sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1.0em;
+	list-style-type: none;
+	margin: 12px 0 0 -31px;
+	text-align: left;
 }
 #name_tittle li{
 	padding: 0px;
@@ -207,6 +211,7 @@ img.floatLeft {
 	font-size: 24px;
 	color:#74767a;
 	margin: 0px 0 0 30px;
+	font-weight: bold; 
 }
 .work_list h2{
 	font-family: 'PT Sans Narrow', cursive;
@@ -218,10 +223,10 @@ img.floatLeft {
 .work_list h3{
 	font-family: 'PT Sans Narrow', cursive;
 	font-size: 18px;
-	color:#1B579E;
+	color:#7e2570;
 	margin: 0 0 0 30px; 
 	text-align: left;
-	border-bottom: 2px solid #1B579E;
+	border-bottom: 2px solid #7e2570;
 	width: 390px;
 }
 .work_list ul{
@@ -258,17 +263,17 @@ img.floatLeft {
 
 /* ===RIBBON===*/	
 .ribbon{
-    color: #1b579e;
+    color: #7e2570;
     font-size: 30px;
     width: 390px;
 	font-family: 'PT Sans Narrow', cursive;
 	font-weight:bold;
-	border-bottom: 1px dotted #1b579e;
-	border-top: 1px dotted #1B579E;
+	border-bottom: 1px dotted #7e2570;
+	border-top: 1px dotted #7e2570;
 	
 }
 .ribbon2{
-    color: #1b579e;
+    color: #7e2570;
     font-size: 30px;
     width: 390px;
 	font-family: 'PT Sans Narrow', cursive;
@@ -279,7 +284,7 @@ img.floatLeft {
 
 .ribbon_portfolio{
 	border-bottom: 3px dotted #BEBEBE;
-    color: #1B579E;
+    color: #c93db4;
     font-family: 'PT Sans Narrow',cursive;
     font-size: 30px;
     font-weight: bold;
@@ -348,57 +353,57 @@ img.floatLeft {
 .progress_bar{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#811f72;
 }
 .photoshop{
 	height:22px;
 	width:0px;
-	background-color:#488AC7;
+	background-color:#d684de;
 }
 .ilustrator{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#c93db4;
 }
 .dreamweaver{
 	height:22px;
 	width:0px;
-	background-color:#488AC7;
+	background-color:#d684de;
 }
 .flash{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#b62ba1;
 }
 .html{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#801570;
 }
 .css{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#78186a;
 	}
 .java{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#c93db4;
 }
 .cms{
 	height:22px;
 	width:0px;
-	background-color:#461B7E;
+	background-color:#350841;
 }
 .seo{
 	height:22px;
 	width:0px;
-	background-color:#461B7E;
+	background-color:#4d1360;
 }
 .php{
 	height:22px;
 	width:0px;
-	background-color:#1b579e;
+	background-color:#6c1a70;
 }
 /* ===jQuery lightBox plugin - Gallery style ===*/	
 
