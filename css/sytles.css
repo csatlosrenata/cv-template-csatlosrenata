@@ -602,6 +602,20 @@ label {
 
 
 
+.captcha-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.captcha-row label {
+  white-space: nowrap;
+}
+
+.captcha-row input {
+  flex: 1;
+  max-width: 100px; 
+}
 
 	
 	
